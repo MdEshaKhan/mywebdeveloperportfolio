@@ -1,0 +1,52 @@
+/* common shared styles */
+body {
+    font-family: sans-serif;
+    
+}
+/* nav related styles */
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.nav-title{
+    font-family: sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    
+}
+
+.text-primary{
+    color: rgb(223, 106, 5);
+}
+
+nav > ul{
+    display: flex;
+    align-items: center;
+  
+    
+    
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+    
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.btn-primary{
+background: rgb(223, 106, 5); 
+border-radius: 5px;
+border: 0;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+color: white;
+padding: 17px 15px;
+
+}
